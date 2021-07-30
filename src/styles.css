@@ -1,0 +1,38 @@
+.leaflet-popup-content-wrapper {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 0.3ch 1ch;
+  background: grey;
+  margin-right: 0.1ch;
+  color: white;
+  transition-property: transform color;
+  transition-delay: 100ms;
+}
+
+button:hover {
+  transform: translate(0px, -1px);
+  color: lightgreen;
+}
+
+input,
+textarea {
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+* {
+  font-family: "FantasqueSansMonoRegular";
+  font-weight: normal;
+  font-style: normal;
+}
